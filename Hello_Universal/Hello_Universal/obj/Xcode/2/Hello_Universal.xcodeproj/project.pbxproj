@@ -1,0 +1,171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 45;
+	objects = {
+/* Begin PBXBuildFile section */
+		582B91000000000000000000 = {isa = PBXBuildFile; fileRef = 7E4AA4C00000000000000000; };
+		3C6EB8800000000000000000 = {isa = PBXBuildFile; fileRef = D4AF60000000000000000000; };
+		20B1E0000000000000000000 = {isa = PBXBuildFile; fileRef = 2B141B400000000000000000; };
+		CD7B56800000000000000000 = {isa = PBXBuildFile; fileRef = 2E424D000000000000000000; };
+		B1BE7E000000000000000000 = {isa = PBXBuildFile; fileRef = 84A708400000000000000000; };
+		7A44CD000000000000000000 = {isa = PBXBuildFile; fileRef = 31707EC00000000000000000; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB24CAC00000000000000000 = {isa = PBXFileReference; name = Hello_Universal; path = Hello_Universal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4AA4C00000000000000000 = {isa = PBXFileReference; name = Hello_UniversalViewController_iPhone.xib; path = Hello_UniversalViewController_iPhone.xib; sourceTree = "<group>"; };
+		D4AF60000000000000000000 = {isa = PBXFileReference; name = Hello_UniversalViewController_iPad.xib; path = Hello_UniversalViewController_iPad.xib; sourceTree = "<group>"; };
+		2B141B400000000000000000 = {isa = PBXFileReference; name = Hello_UniversalViewController.h; path = Hello_UniversalViewController.h; sourceTree = "<group>"; };
+		2E424D000000000000000000 = {isa = PBXFileReference; name = Hello_UniversalViewController.m; path = Hello_UniversalViewController.m; sourceTree = "<group>"; };
+		84A708400000000000000000 = {isa = PBXFileReference; name = AppDelegate.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31707EC00000000000000000 = {isa = PBXFileReference; name = AppDelegate.m; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D8C06000000000000000000 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9382F000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2E424D000000000000000000,
+				31707EC00000000000000000,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8948DE800000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2B141B400000000000000000,
+				7E4AA4C00000000000000000,
+				84A708400000000000000000,
+				CB24CAC00000000000000000,
+				D4AF60000000000000000000,
+				E9382F000000000000000000,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE52FC800000000000000000 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A557C800000000000000000;
+			buildPhases = (
+				6D8C06000000000000000000,
+				361255000000000000000000,
+				51CF2D800000000000000000,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = Hello_Universal;
+			productName = Hello_Universal;
+			productReference = CB24CAC00000000000000000;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B1C73000000000000000000 = {
+			isa = PBXProject;
+			targets = (
+				CE52FC800000000000000000,
+			);
+			buildConfigurationList = FE98A4000000000000000000;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			productRefGroup = 8948DE800000000000000000;
+			mainGroup = 8948DE800000000000000000;
+			projectDirPath = "";
+			projectRoot = "";
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51CF2D800000000000000000 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582B91000000000000000000,
+				3C6EB8800000000000000000,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361255000000000000000000 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B1E0000000000000000000,
+				CD7B56800000000000000000,
+				B1BE7E000000000000000000,
+				7A44CD000000000000000000,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C71EF3000000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "Info.plist";
+				PRODUCT_NAME = Hello_Universal;
+			};
+			name = MonoTouch;
+		};
+		AB621A800000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A557C800000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71EF3000000000000000000,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE98A4000000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB621A800000000000000000,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B1C73000000000000000000;
+}

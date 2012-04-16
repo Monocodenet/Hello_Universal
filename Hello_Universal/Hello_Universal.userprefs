@@ -1,0 +1,33 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hello_Universal/Hello_UniversalViewController.cs">
+    <Files>
+      <File FileName="../../../../../[Projects]/[Ravid]/Dev/Ravid/Ravid.Common/BL/Entities/Message.cs" Line="14" Column="41" />
+      <File FileName="Hello_Universal/AppDelegate.cs" Line="34" Column="22" />
+      <File FileName="Hello_Universal/Hello_UniversalViewController.cs" Line="8" Column="52" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Hello_Universal" expanded="True" selected="True">
+            <Node name="Images" expanded="True">
+              <Node name="Icons" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True">
+          <Node name="Hello_Universal" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Hello__Universal>
+    <IPhoneSimulatorTarget-Debug_27CiPhoneSimulator Device="IPhone" SdkVersion="4.3" />
+  </MonoDevelop.Ide.ItemProperties.Hello__Universal>
+</Properties>
